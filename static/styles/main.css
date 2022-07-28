@@ -1,0 +1,152 @@
+body {
+  background-color: #cccccc;
+}
+
+.logo {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#form-container {
+  width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+  font-size: 36px;
+}
+
+.welcome-message p {
+  font-size: 20px;
+}
+
+.form-field {
+  margin: 20px;
+}
+
+.form-field input {
+  width: 100%;
+  border: 2px solid rgba(198, 202, 219, 1);
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form-field input[type="submit"] {
+  width: 100%;
+  border: none;
+  background-color: #0798ff;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid rgba(198, 202, 219, 1);
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 450px) {
+  #form-container {
+    width: 95%;
+  }
+
+  .welcome-message h1 {
+    font-size: 24px;
+  }
+}
+
+/* room styling */
+
+#room-name-container {
+  text-align: center;
+  font-size: 18px;
+}
+
+#video-streams {
+  display: flex;
+  flex-wrap: wrap;
+  height: 85vh;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.video-container {
+  flex-basis: 500px;
+  flex-grow: 1;
+  max-height: 100%;
+  min-height: 350px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: white;
+  position: relative;
+}
+
+.user-name-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.video-player {
+  width: 100%;
+  height: 100%;
+}
+
+.video-player > * {
+  border-radius: 18.5px;
+}
+
+.agora-video-player-track-cam-b3226465 {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1650px) {
+  .video-container {
+    flex-basis: 300px;
+    min-height: 200px;
+  }
+}
+
+/* room controllers styling */
+
+#controls-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  column-gap: 1em;
+  position: fixed;
+  bottom: 40px;
+}
+
+.control-icon {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#leve-button {
+  background-color: red;
+}
