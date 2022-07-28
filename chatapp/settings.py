@@ -90,10 +90,10 @@ WSGI_APPLICATION = 'chatapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dfenu96s0j8j3s',
-        'USER': 'txfoekyproyser',
-        'PASSWORD': 'f39a116f095d4392a666420f3e2f0e6fae35a4f27ec0948b9a47151436aedfa0',
-        'HOST': 'ec2-18-214-35-70.compute-1.amazonaws.com',
+        'NAME': 'd5gc0o4goj3835',
+        'USER': 'xuzzreprysgwpc',
+        'PASSWORD': '8020cfafb0498bd72e578d04f8b007dbdb821e51cb104f9b20ae8fb11dbf85ed',
+        'HOST': 'ec2-107-22-122-106.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
