@@ -30,7 +30,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = ['20.205.169.41']
 # ALLOWED_HOSTS = ['52.163.52.168']
-ALLOWED_HOSTS = ['127.0.0.1', 'eranda-cahtapp.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'achila-chatapp.herokuapp.com']
 
 
 # Application definition
